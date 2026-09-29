@@ -14,18 +14,12 @@ Explore Nmap—an essential tool for a SOC analyst to scan networks, find active
 <h2>Step 2: Run a Basic Host Scan</h2>
 1. Open terminal or command prompt <br>
 2. Discover your IP and subnet using ipconfig on Windows or ip/ifconfig on Linux/macOS <br>
-<p align="center">
-<img src="https://i.imgur.com/HI9YN1R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
 3. Look for your local IP address and subnet <br>
 In this case, local IP address is 192.168.1.77 and subnet range is 192.168.1.0/24
 
 <h2>Step 3: Scan for Active Devices</h2>
 1. Run a ping scan to find live hosts on your network <br>
 &emsp; a. nmap -sn 192.168.1.0/24
-<p align="center">
-<img src="https://i.imgur.com/tAmmaXQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
 
 <h2>Step 4: Port Scan and Service Detection</h2>
 1. Pick an IP from the results. Run a deeper scan to identify open ports and services <br>
